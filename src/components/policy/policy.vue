@@ -134,7 +134,7 @@ export default {
     send(){
       this.$http({
           method:'post',
-          url:"https://fantuan.wxhulu.com:8086/newEntrancePolicy/getProvince/getNewEntrancePolicy",
+          url:"http://localhost:8085/newEntrancePolicy/getProvince/getNewEntrancePolicy",
           data:{
             "province":this.sname[0]
           }

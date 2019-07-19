@@ -156,7 +156,7 @@ export default {
         handleSubmit() {
             this.$http({
                 method:'post',
-                url:"https://fantuan.wxhulu.com:8086/home/login",
+                url:"http://localhost:8085/home/login",
                 data:{
                     "userName":this.form.userName,
                     "password":this.form.password
