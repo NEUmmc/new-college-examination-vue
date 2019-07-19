@@ -135,6 +135,7 @@ export default {
       this.$http({
           method:'post',
           url:"http://localhost:8085/newEntrancePolicy/getProvince/getNewEntrancePolicy",
+          
           data:{
             "province":this.sname[0]
           }
